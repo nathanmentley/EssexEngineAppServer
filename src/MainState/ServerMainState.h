@@ -10,8 +10,6 @@
  */
 #pragma once
 
-#include <EssexEngineCore/imgui.h>
-
 #include <EssexEngineCore/State.h>
 
 namespace EssexEngine{

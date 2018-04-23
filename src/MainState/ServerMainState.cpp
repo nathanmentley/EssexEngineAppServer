@@ -25,9 +25,11 @@ void EssexEngine::Apps::Server::ServerMainState::Logic() {
 }
 
 void EssexEngine::Apps::Server::ServerMainState::Render() {
+    /*
     ImGui::Begin("Debug Console");
     ImGui::Text("Hello");
     ImGui::End();
+    */
 }
 
 bool EssexEngine::Apps::Server::ServerMainState::PauseUnder() {
