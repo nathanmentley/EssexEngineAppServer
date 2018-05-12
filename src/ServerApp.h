@@ -18,7 +18,7 @@ namespace Server{
     class ServerApp: public Core::BaseApp
     {
         public:
-            ServerApp(): BaseApp() { }
+            ServerApp(WeakPointer<Context> context): BaseApp(context) { }
             ~ServerApp() {}
             std::string GetAppName() { return "Server"; }
             std::string GetAppVersion() { return ESSEX_ENGINE_VERSION; }

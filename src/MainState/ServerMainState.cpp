@@ -11,10 +11,11 @@
 
 #include <EssexEngineAppServer/ServerMainState.h>
 
+using EssexEngine::Core::IApp;
 using EssexEngine::Core::Models::State;
 using EssexEngine::Apps::Server::ServerMainState;
 
-ServerMainState::ServerMainState(WeakPointer<Context> _context): State(_context) {}
+ServerMainState::ServerMainState(WeakPointer<Context> _context, WeakPointer<IApp> _app): State(_context, _app) {}
 
 ServerMainState::~ServerMainState() {}
 

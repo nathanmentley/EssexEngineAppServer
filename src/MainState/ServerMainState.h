@@ -18,7 +18,7 @@ namespace Server{
     class ServerMainState: public Core::Models::State
     {
     public:
-        ServerMainState(WeakPointer<Context> _context);
+        ServerMainState(WeakPointer<Context> _context, WeakPointer<Core::IApp> _app);
         ~ServerMainState();
         
         //override
